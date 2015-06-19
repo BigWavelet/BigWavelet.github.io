@@ -11,12 +11,12 @@ category: opinion
 
 我的梦幻西游数据如下所示。
 
-	服务器		 		北京一区/喜大普奔
-	昵称		 		苍月吟丙
-	角色		 		龙太子
-	等级		 		89
-	技能1&等级	 		天罡气/89
-	技能2&等级	 		傲世诀/89	
+	服务器		 		<font color='red'>北京一区/喜大普奔</font>
+	昵称		 		<font color='red'>苍月吟丙</font>
+	角色		 		<font color='red'>龙太子</font>
+	等级		 		<font color='red'>89</font>
+	技能1&等级	 		<font color='red'>天罡气/89</font>
+	技能2&等级	 		<font color='red'>傲世诀/89</font>
 
 
 

@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/js/prettify/prettify.css" />
+<style type="text/css">
+    body { background:#e8e8e8; }
+    @media screen and (max-width: 750px){
+        body { background:#fff; }
+    }
+    @media screen and (max-width: 1020px){
+        body { background:#fff; }
+    }
+</style>
+				
+<div id="content">
+    <!-- 文章内容 start -->
+    <div class="entry">
+        <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+        <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
+        {{ content }}
+        <div id="disqus_container">
+            <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box', '{{ page.title }}', 'http://bigwavelet.github.io{{ page.url }}');">点击查看评论</a>
+            <div id="comment-box"></div>
+        </div>        
+    </div>
+    <!-- 文章内容 end -->
+
+    <!-- 微博关注 start -->
+    <div class="sidenav">
+		<iframe width="100%" height="200" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=2411075620&verifier=c4ac827b&dpc=1"></iframe>
+    </div>
+    <!-- 微博关注 end -->
+
+    <!-- 文章目录 start -->
+    <div class="sidenav">
+        <h2>学习札记</h2>
+        <ul class="artical-list">
+        {% for post in site.categories.blog%}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+        
+        <h2>生活百态</h2>
+        <ul class="artical-list">
+        {% for post in site.categories.opinion%}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+
+        <h2>人生随笔</h2>
+        <ul class="artical-list">
+		  {% for post in site.categories.life%}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+		</ul>
+    </div>
+	
+    <!-- 文章目录 end -->
+		<!--分享按钮-->
+	<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#9C3&amp;text=分享到"></script>
+   
+	
+</div>
+
+
+
+<div id="footer">
+	<p>
+		<a href="http://bigwavelet.github.io" target="_blank">袁定波的博客</a>。
+		感谢<a href="https://pages.github.com/" target="_blank">GitHub Pages</a>开源技术。
+	 
+		本站代码地址在<a href="https://github.com/BigWavelet/BigWavelet.github.io" target="_blank">这里</a>
+	</p>
+</div>
+
+<script src="http://libs.baidu.com/jquery/1.7.1/jquery.min.js"></script>
+<!-- 多说公共JS代码 start-->
+
+<script> var duoshuoQuery = {short_name:"bigwavelet"};</script>
+<script src="http://static.duoshuo.com/embed.js"></script>
+<script type="text/javascript">
+function toggleDuoshuoComments(container, id, url){
+  if(jQuery(container).has("div").length>0){
+    jQuery(container).empty();
+    return;
+  }
+  var el = document.createElement('div');
+  el.setAttribute('data-thread-key', id);
+  el.setAttribute('data-url', url);
+  DUOSHUO.EmbedThread(el);
+  jQuery(container).append(el);
+}
+</script>
+<!-- 多说公共JS代码 end -->

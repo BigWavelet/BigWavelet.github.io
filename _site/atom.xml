@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+   <title>袁定波的博客</title>
+   <link href="http://bigwavelet.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+   <link href="http://bigwavelet.github.io" rel="alternate" type="text/html" />
+   <updated>2014-12-21T21:10:49+08:00</updated>
+   <id>http://bigwavelet.github.io</id>
+   <author>
+     <name></name>
+     <email></email>
+   </author>
+
+   
+   <entry>
+     <title>游戏进度+攻略（一）</title>
+     <link href="http://bigwavelet.github.io/bigwavelet-game-01"/>
+     <updated>2014-12-19T00:00:00+08:00</updated>
+     <id>http://bigwavelet.github.io/bigwavelet-game-01</id>
+     <content type="html">&lt;p&gt;拿了某易的offer之后，要求入职前需要玩6个手游+1个回合制端游+1个即时制端游。也真是醉了。。。每天又要搬砖，又要玩游戏，好心塞，感觉不会再爱了。。。&lt;/p&gt;
+
+&lt;p&gt;以后每个月更新一下自己的游戏进度，权当备份，以防死无对证！&lt;/p&gt;
+
+&lt;h2&gt;保卫萝卜2&lt;/h2&gt;
+
+&lt;p&gt;这不是网游么啊喂。。。先上图！
+&lt;img src=&quot;http://bigwavelet.github.io/images/post/baoweiluobo_3.PNG&quot; alt=&quot;hello world&quot; /&gt;
+玩到第97关了。哎呀，后面几关金萝卜水晶萝卜都没有拿到，弱爆了。
+&lt;img src=&quot;http://bigwavelet.github.io/images/post/baoweiluobo_2.PNG&quot; alt=&quot;hello world&quot; /&gt;
+不过金萝卜86个，达标（要求为80个）；水晶萝卜80个，达标（要求为80个）；杀死怪物数量49895达标（要求为10000个）；摧毁道具总数
+为5873，达标（要求为3000个）；炮塔解锁17个，未达标（要求为18个）。话说第18个炮塔怎么才能解锁呢，无解。
+&lt;img src=&quot;http://bigwavelet.github.io/images/post/baoweiluobo_1.PNG&quot; alt=&quot;hello world&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;接下来谈谈自己玩保卫萝卜的经历吧。我自己先玩了20多关，觉得唯一比较关键的就是炮塔位置的摆放。而要打隐藏道具的话，多玩几次就
+知道隐藏道具在什么位置了。而这个游戏实在没什么意思。于是乎，我无耻地照着攻略玩完了接下来的关卡。给一个不错的&lt;a href=&quot;http://pan.baidu.com/share/link?shareid=463130&amp;amp;uk=487907638&quot;&gt;&lt;font color=&#39;red&#39;&gt;攻略&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;刀塔传奇&lt;/h2&gt;
+
+&lt;p&gt;嗯，还是先上图。
+&lt;img src=&quot;http://bigwavelet.github.io/images/post/daota_1.PNG&quot; alt=&quot;hello world&quot; /&gt;
+&lt;img src=&quot;http://bigwavelet.github.io/images/post/daota_2.PNG&quot; alt=&quot;hello world&quot; /&gt;
+&lt;img src=&quot;http://bigwavelet.github.io/images/post/daota_3.PNG&quot; alt=&quot;hello world&quot; /&gt;
+&lt;img src=&quot;http://bigwavelet.github.io/images/post/daota_4.PNG&quot; alt=&quot;hello world&quot; /&gt;&lt;/p&gt;
+</content>
+   </entry>
+   
+   <entry>
+     <title>LUA 学习日记（一）</title>
+     <link href="http://bigwavelet.github.io/bigwavelet-lua-learning-01"/>
+     <updated>2014-11-27T00:00:00+08:00</updated>
+     <id>http://bigwavelet.github.io/bigwavelet-lua-learning-01</id>
+     <content type="html">&lt;p&gt;Roberto Ierusalimschy 的&lt;a href=&quot;http://pan.baidu.com/share/link?shareid=463130&amp;amp;uk=487907638&quot;&gt;&#39;Programming in Lua, Second Edition&#39;&lt;/a&gt;对初学者来讲，是一本不错的参考书。&lt;/p&gt;
+
+&lt;p&gt;那么如何搭建lua环境呢，windows用户下载&lt;a href=&quot;https://www.slimwareutilities.com/community/info.php?id=813153&amp;amp;type=software&quot;&gt;lua for windows&lt;/a&gt; 。安装时勾选安装SciTe编辑器即可。&lt;/p&gt;
+
+&lt;p&gt;今天主要写一点关于Lua的数据类型的东西吧。Lua是动态类型语言，变量不要类型定义。
+其中有8个基本类型非别是：nil, boolean, number, string, userdata, function, thread 和table。
+如果我们希望知道某给定变量的类型，可以使用type函数获得，例如&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;            print(type(a))  --&amp;gt; nil   (&#39;a&#39; is not initialized) 
+            a = 10 
+            print(type(a))  --&amp;gt; number 
+            a = &quot;a string!!&quot; 
+            print(type(a))  --&amp;gt; string 
+            a = print    -- yes, this is valid! 
+            a(type(a))     --&amp;gt; function 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;细心的小伙伴可能发现，我们可以像使用变量一样来使用print函数。有没有很神奇呢。下面分别介绍以下8种基本数据类型。&lt;/p&gt;
+
+&lt;h2&gt;nil&lt;/h2&gt;
+
+&lt;p&gt;nil 是Lua中的一种特殊的数据类型，其只有一种取值:nil。 一个全局变量没有赋值之前，其默认的取值为nil。
+因此，如果给一个全局变量赋值nil则可以删除该变量。&lt;/p&gt;
+
+&lt;h2&gt;booleans&lt;/h2&gt;
+
+&lt;p&gt;该类型的变量有两个取值：false 和true。值得注意的是，在控制结构的条件中出力false和nil为假，其他值都为
+真。&lt;font color=&#39;red&#39;&gt;在Lua中，即使0或者空串都是真&lt;/font&gt;。&lt;/p&gt;
+
+&lt;h2&gt;nubmers&lt;/h2&gt;
+
+&lt;p&gt;该类型表示实数。值得注意的是，在lua中没有整数的概念。数字的基本表示如下例所示&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;            4    0.4    4.57e-4    0.4e-7
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;strings&lt;/h2&gt;
+
+&lt;p&gt;表示字符序列，即字符串。&lt;font color=&#39;red&#39;&gt;lua中的字符串是不可以修改的&lt;/font&gt;. 字符串用单引号，双引号
+表示皆可。跟C语言比较类似，可以用\转义符。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;            a = &quot;a line&quot; 
+            b = &#39;another line&#39; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;同时，值得注意的是，lua会在string和number之间自动进行类型转换，当一个字符串使
+用算术操作符时，string 就会被转成数字。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;            print(&quot;10&quot; + 1)     --&amp;gt; 11 
+            print(&quot;10 + 1&quot;)     --&amp;gt; 10 + 1 
+            print(&quot;-5.3e - 10&quot; * &quot;2&quot;)  --&amp;gt; -1.06e-09 
+            print(&quot;hello&quot; + 1)    -- ERROR (cannot convert &quot;hello&quot;) 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;如果需要显示将string转成数字，可以使用函数tonumber(),如果string 不是正确的数字，该函数将返回nil。
+同理，可以调用tostring()将数字转成字符串。&lt;/p&gt;
+
+&lt;h2&gt;userdata &amp;amp; threads&lt;/h2&gt;
+
+&lt;p&gt;userdata 可以将 C 数据存放在 Lua 变量中， userdata 在 Lua 中除了赋值和相等比较
+有预定义的操作。userdata 用来描述应用程序或者使用 C 实现的库创建的新类型。&lt;/p&gt;
+
+&lt;h2&gt;functions&lt;/h2&gt;
+
+&lt;p&gt;函数是第一类值（和其他变量相同），意味着函数可以存储在变量中，可以作为函数
+参数，也可以作为函数的返回值。这个特性给了语言很大的灵活性：一个程序可以重
+定义函数增加新的功能或者为了避免运行不可靠代码创建安全运行环境而隐藏函数，
+外这特性在 Lua 实现面向对象中也起了重要作用.&lt;/p&gt;
+
+&lt;h2&gt;table&lt;/h2&gt;
+
+&lt;p&gt;未完待续。。。&lt;/p&gt;
+</content>
+   </entry>
+   
+   <entry>
+     <title>终于在Github上搭好了自己的博客</title>
+     <link href="http://bigwavelet.github.io/bigwavelet-helloworld"/>
+     <updated>2014-11-26T00:00:00+08:00</updated>
+     <id>http://bigwavelet.github.io/bigwavelet-helloworld</id>
+     <content type="html">&lt;p&gt;这是第一个DIY的博客，先码一记，以后慢慢更！&lt;/p&gt;
+</content>
+   </entry>
+   
+ 
+</feed>

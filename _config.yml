@@ -1,0 +1,10 @@
+
+markdown: rdiscount
+highlighter: pygments
+
+permalink: /:title
+
+title: 袁定波的博客
+url: http://bigwavelet.github.io
+feed: /atom.xml  
+author_info: <a href="http://bigwavelet.github.io/">袁定波</a>

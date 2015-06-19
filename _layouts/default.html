@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="author" content="BigWavelet" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="袁定波的博客" />
+    <meta name="keywords" content="袁定波的博客,BigWavelet,袁定波">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+	
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<!-- 站点统计-->
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=38877220" charset="UTF-8"></script>
+
+
+</head>
+<body>
+
+    <link href="http://bigwavelet.github.io/atom.xml" rel="alternate" title="Atom Rss" type="application/atom+xml" />       
+    <div class="home-menu">
+        <div class="home-icon-con">
+            <a class="home-menu-icon" href="/" style="color:#fff;">袁定波</a>
+            <a class="home-follow" href="#" title="Contact Me">+</a>
+        </div>
+        <div class="home-contact">
+            <a href="https://github.com/BigWavelet" target="_blank">
+                <div class="github"></div>
+            </a>
+            <a href="http://weibo.com/u/2411075620" target="_blank">
+                <div class="weibo"></div>
+            </a>
+
+        </div>
+    </div>
+
+	
+	
+
+	
+		
+    {{ content }}
+    <script type="text/javascript">
+        $(function(){
+            $('.home-follow').click(function(e){        // 左侧悬浮点击      
+                e.preventDefault();
+
+                if($('.home-contact').is(':visible')){
+                    $('.home-contact').hide();
+                }else{
+                    $('.home-contact').show();
+                }
+            });
+        });
+    </script>
+	
+
+	
+
+</body>
+</html>

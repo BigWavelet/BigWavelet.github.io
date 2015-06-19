@@ -17,16 +17,16 @@ category: opinion
 		<td>昵称</td>
 		<td>角色</td>
 		<td>等级</td>
-		<td>技能1&等级</td>
-		<td>技能2&等级</td>
+		<td>技能1 and 等级</td>
+		<td>技能2 and 等级</td>
     </tr>
     <tr>
         <td>北京一区/喜大普奔</td>
 		<td>苍月吟丙</td>
 		<td>龙太子</td>
 		<td>89</td>
-		<td>天罡气/89</td>
-		<td>傲世诀/89</td>
+		<td>天罡气 and 89</td>
+		<td>傲世诀 and 89</td>
     </tr>
 </table>
 

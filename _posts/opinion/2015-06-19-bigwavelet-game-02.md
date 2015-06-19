@@ -11,23 +11,13 @@ category: opinion
 
 我的梦幻西游数据如下表所示。
 
-<table class="table table-bordered table-striped table-condensed">
-    <tr>
-        <td>服务器</td>
-		<td>昵称</td>
-		<td>角色</td>
-		<td>等级</td>
-		<td>技能1 and 等级</td>
-		<td>技能2 and 等级</td>
-    </tr>
-    <tr>
-        <td>北京一区/喜大普奔</td>
-		<td>苍月吟丙</td>
-		<td>龙太子</td>
-		<td>89</td>
-		<td>天罡气 and 89</td>
-		<td>傲世诀 and 89</td>
-    </tr>
+<table>
+<tbody>
+<tr><td><em>Year</em></td><td><em>Temperature (low)</em></td><td><em>Temperature (high)</em></td></tr>
+<tr><td>1900</td><td>-10</td><td>25</td></tr>
+<tr><td>1910</td><td>-15</td><td>30</td></tr>
+<tr><td>1920</td><td>-10</td><td>32</td></tr>
+</tbody>
 </table>
 
 

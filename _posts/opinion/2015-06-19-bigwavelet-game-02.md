@@ -107,8 +107,8 @@ category: opinion
 
 截图如下
 
-![hello world](http://bigwavelet.github.io/images/post/stone1.PNG)
-![hello world](http://bigwavelet.github.io/images/post/stone2.PNG)
+![hello world](http://bigwavelet.github.io/images/post/stone1.png)
+![hello world](http://bigwavelet.github.io/images/post/stone2.png)
 
 
 ## 7 保卫萝卜2

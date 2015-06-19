@@ -6,5 +6,5 @@ category: opinion
 
 ---
 
-![hello world](http://bigwavelet.github.io/images/post/vivian.jpg)
+![hello world](http://bigwavelet.github.io/images/post/vivian.JPG)
 

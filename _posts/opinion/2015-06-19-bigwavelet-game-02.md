@@ -28,17 +28,16 @@ category: opinion
 
 其游戏数据如下
 
-	服务器		 				
-	昵称		 				
-	角色		 				
-	人物等级		 				
-	派系技能&等级	 			
-	威望	 					
+	服务器		     				龙腾四海				
+	昵称		 					苍月吟乙
+	角色		 					奕剑听雨阁
+	人物等级		 				68
+	派系技能&等级	 			    天回云舞剑&68
+	威望	 						2035
 
 
 截图如下
-![hello world](http://bigwavelet.github.io/images/post/menghuan1.PNG)
-![hello world](http://bigwavelet.github.io/images/post/menghuan2.PNG)
+![hello world](http://bigwavelet.github.io/images/post/tianxia2.png)
 
 ## 3 部落冲突
 

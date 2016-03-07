@@ -6,11 +6,11 @@ category: blog
 
 ---
 
-# ![avatar][] 黄梅
+#  黄梅  ![avatar][]
 
 ---
 
-> #####  浙江省杭州市滨江区长江西苑,310000 &emsp; [vivian_dragon@163.com][homepage] [+8618281453915][homepage]
+> #####  浙江省杭州市滨江区长江西苑,310000 &emsp; [vivian_dragon@163.com][homepage] &nbsp &nbsp &nbsp[+8618281453915][homepage]
 
 ---
 ## 教育背景
@@ -20,7 +20,7 @@ category: blog
 #### ➢	西南大学外国语学院英语系学科教学（英语）专业 &emsp; <small>*2012 - 2015*</small>
 `教育硕士学位`
 ---
-
+---
 ## 工作经历
 
 #### ➢	重庆市万州区纯阳中学 &emsp; <small>*03/2010 - 06/2010*</small>
@@ -58,7 +58,7 @@ category: blog
 `•	强烈的责任感，创造性，和团队意识`<br>
 `•	良好的沟通能力`<br>
 `•	善于总结和反思，具有良好的学习能力`
----
+
 [avatar]: http://bigwavelet.github.io/images/post/vivian
 [homepage]: http://bigwavelet.github.io
 

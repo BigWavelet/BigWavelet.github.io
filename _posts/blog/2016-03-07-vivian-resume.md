@@ -15,10 +15,10 @@ category: blog
 ---
 ## 教育背景
 #### ➢	西南大学外国语学院英语系 &emsp; <small>*2007 - 2011*</small>
-`文学学士学位`
+`•	文学学士学位`
 
 #### ➢	西南大学外国语学院英语系学科教学（英语）专业 &emsp; <small>*2012 - 2015*</small>
-`教育硕士学位`
+`•	教育硕士学位`
 ---
 ---
 ## 工作经历
@@ -61,6 +61,65 @@ category: blog
 
 [avatar]: http://bigwavelet.github.io/images/post/vivian
 [homepage]: http://bigwavelet.github.io
+
+---
+---
+
+##  Huang Mei
+
+---
+
+> #####  Room 2-403, Building No.4,  ChangJiangXiYuan Residential Quarter, BinJiang District, Hangzhou city, Zhejiang province, 310000, China &emsp; <br>[vivian_dragon@163.com][homepage]<br>[+8618281453915][homepage]
+
+---
+## EDUCATION
+#### ➢	Southwest University, Chongqing, P.R.China &emsp; <small>*2007 - 2011*</small>
+`•	Bachelor of Arts in English`
+
+#### ➢	Southwest University, Chongqing, P.R.China &emsp; <small>*2012 - 2015*</small>
+`•	Master of Education in Subject Teaching (English)`
+---
+---
+## EXPERIENCE
+
+#### ➢	Chunyang Middle School, Chongqing, China &emsp; <small>*03/2010 - 06/2010*</small>
+`•	English teacher of Science Class 8`<br>
+`•	Practicing head teacher in the same class`
+
+
+#### ➢ 	Santai No.1 Middle School, Mianyang City, Sichuan &emsp; <small>*08/2011 - 02/2016*</small>
+`•	English teacher of High School Section, innovator of simplified English grammar teaching.`<br>
+`•	Deputy head teacher in charge of communicating with students about their academic and mental problems, and also some daily routines. `<br>
+`•	Frequent participant in school-level demonstration lessons ( 3 times) and open classes of school-level and county-level;`<br>
+`•	Regular rater of city-level Achievement Tests, rater of National College Entrance Examination ( Sichuan) in 2014. `
+
+
+---
+##HONOURS/AWARDS
+`•	Third-class Scholarship (2008, 2010)`<br>
+`•	•	Third Prize of the 5th National Teaching Skills Contest for English Majors of Normal Universities.(2010)`<br>
+`•	Star Teacher of Santai No.1 Middle School in 2012`<br>
+`•	Top-Ten Young Teachers, Star Teacher in 2013`<br>
+`•	Teaching Performance rated as excellent in 2012, 2013 and 2015  `<br>
+`•	Mentor of students winning the national third Prize, provincial second prize and municipal first prize in the National Olympic English Competition`
+
+---
+##SKILLS
+####Computer Skills
+`•	National Computer Rank Examination level 2 (2011)`<br>
+`•	Familiar with Office software. `
+####Language
+`•	TEM 4 (2009)`<br>
+`•	TEM 8 (2011)`<br>
+`•	Good ability to listen, speak, read and write in both Chinese and English`<br>
+`•	Basic language skills of French`
+####Personal Qualities
+`•	Strong sense of responsibility and excellent teamwork spirit`<br>
+`•	Good ability in innovation, organization and communication`<br>
+`•	capable of self-assessment and introspection`<br>
+`•	excellent capacity to learn and master things effectively`
+
+
 
 	
 

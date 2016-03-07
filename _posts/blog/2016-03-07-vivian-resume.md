@@ -6,7 +6,7 @@ category: blog
 
 ---
 
-##  Huang Mei
+##  Huang Mei ![avatar][]
 
 ---
 
@@ -59,7 +59,9 @@ category: blog
 `•	Good ability in innovation, organization and communication`<br>
 `•	capable of self-assessment and introspection`<br>
 `•	excellent capacity to learn and master things effectively`
-[avatar]: http://bigwavelet.github.io/images/post/vivian
+
+---
+[avatar]: http://bigwavelet.github.io/images/post/vivian_resume_photo.JPG
 [homepage]: http://bigwavelet.github.io
 
 ---

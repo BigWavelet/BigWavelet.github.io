@@ -30,7 +30,7 @@ category: blog
 
 #### ➢ 	Santai No.1 Middle School, Mianyang City, Sichuan &emsp; <small>*08/2011 - 02/2016*</small>
 `•	English teacher of High School Section, innovator of simplified English grammar teaching.`<br>
-`•	Deputy head teacher in charge of communicating with students about their academic and mental problems, and also some daily routines. `<br>
+`•	Deputy head teacher in charge of communicating with students about their academic and psychological problems, and also some daily routines. `<br>
 `•	Frequent participant in school-level demonstration lessons ( 3 times) and open classes of school-level and county-level;`<br>
 `•	Regular rater of city-level Achievement Tests, rater of National College Entrance Examination ( Sichuan) in 2014. `
 

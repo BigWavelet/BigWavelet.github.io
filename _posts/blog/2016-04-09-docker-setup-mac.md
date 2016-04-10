@@ -47,44 +47,22 @@ yuandbdeMacBook-Air:~ yuandb$
 打开dashboard，看到如上图所示的两个图标，一个是Docker Quickstart Terminal，另一个是Kitematic（Beta）。
 点击左边的
 Docker Quickestart Terminal，其会打开一个终端，启动虚拟机，并开启Docker daemon守护进程，终端输出信息如下
+
+
 ```
-ast login: Sat Jul 11 20:09:45 on ttys002
-bash '/Applications/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
-Get http:///var/run/docker.sock/v1.19/images/json?all=1&filters=%7B%22dangling%22%3A%5B%22true%22%5D%7D: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
-Get http:///var/run/docker.sock/v1.19/images/json?all=1: dial unix /var/run/docker.sock: no such file or directory. Are you trying to connect to a TLS-enabled daemon without TLS?
--bash: lolcat: command not found
-
-mary at meepers in ~
-$ bash '/Applications/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
-Creating Machine dev...
-Creating VirtualBox VM...
-Creating SSH key...
-Starting VirtualBox VM...
-Starting VM...
-To see how to connect Docker to this machine, run: docker-machine env dev
-Starting machine dev...
-Setting environment variables for machine dev...
-
-                        ##         .
-                  ## ## ##        ==
-               ## ## ## ## ##    ===
-           /"""""""""""""""""\___/ ===
-      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
-           \______ o           __/
-             \    \         __/
-              \____\_______/
-
-The Docker Quick Start Terminal is configured to use Docker with the “default” VM.
+se Docker with the “default” VM.
 ```
 
 至此，完成了Docer daemon进程的启动。
 
 接下来，我们来尝试第一个hello world
+
 ```
 yuandbdeMacBook-Air:~ yuandb$ docker run ubuntu echo "hello world"
 hello world
 yuandbdeMacBook-Air:~ yuandb$
 ```
+
 测试无误！再试一个！
 
 ```

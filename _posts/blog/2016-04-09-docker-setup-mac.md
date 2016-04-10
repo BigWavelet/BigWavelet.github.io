@@ -29,19 +29,22 @@ Docker是一个C／S架构的程序，包括了服务端的docker daemon进程�
 完成tool－box的安装后，下面介绍如何启动docker。
 
 至此，在终端中输入docker，可以看到docker的help信息，这表示我们已经完成了docker的安装，然后如果我们输入
-```
-docker version
-```
+
+	docker version
+
 或者
-```
-docker info
-```
+
+
+	docker info
+
+
 时，会得到如下提示信息
-```
-yuandbdeMacBook-Air:~ yuandb$ docker info
-Cannot connect to the Docker daemon. Is the docker daemon running on this host?
-yuandbdeMacBook-Air:~ yuandb$ 
-```
+
+	yuandbdeMacBook-Air:~ yuandb$ docker info
+	Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+	yuandbdeMacBook-Air:~ yuandb$ 
+	
+
 别着急，这表示机器上并未检测到Docker的daemon守护进程，因为该进程根本就并没有启动啊。
 
 打开dashboard，看到如上图所示的两个图标，一个是Docker Quickstart Terminal，另一个是Kitematic（Beta）。
@@ -49,9 +52,44 @@ yuandbdeMacBook-Air:~ yuandb$
 Docker Quickestart Terminal，其会打开一个终端，启动虚拟机，并开启Docker daemon守护进程，终端输出信息如下
 
 
-```
-se Docker with the “default” VM.
-```
+	
+	Starting "default"...
+	(default) Check network to re-create if needed...
+	(default) Waiting for an IP...
+	Machine "default" was started.
+	Waiting for SSH to be available...
+	Detecting the provisioner...
+	Started machines may have new IP addresses. You may need to re-run the `docker-machine env` command.
+	Regenerate TLS machine certs?  Warning: this is irreversible. (y/n): Regenerating TLS certificates
+	Waiting for SSH to be available...
+	Detecting the provisioner...
+	Copying certs to the local machine directory...
+	Copying certs to the remote machine...
+	Setting Docker configuration on the remote daemon...
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	                        ##         .
+	                  ## ## ##        ==
+	               ## ## ## ## ##    ===
+	           /"""""""""""""""""\___/ ===
+	      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
+	           \______ o           __/
+	             \    \         __/
+	              \____\_______/
+	
+	
+	docker is configured to use the default machine with IP 192.168.99.100
+	For help getting started, check out the docs at https://docs.docker.com
+
 
 至此，完成了Docer daemon进程的启动。
 
